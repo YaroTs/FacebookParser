@@ -1,5 +1,6 @@
 import org.apache.commons.logging.LogFactory;
 
+import java.io.IOException;
 import java.util.logging.Level;
 
 public class Main {
@@ -10,7 +11,7 @@ public class Main {
             FacebookParser parser = new FacebookParser();
             parser.parse();
         }
-        catch (Exception e){
+        catch (IOException e){
             e.printStackTrace();
         }
     }
