@@ -1,0 +1,50 @@
+/*!CK:1897884686!*//*1386779356,178158627*/
+
+._5292{float:left;margin-left:-7px;padding-right:1px;z-index:5}
+._5292 a, ._5292 a:hover, ._5292 a:focus, ._5292 a:active{display:block;height:31px;outline:none;overflow:hidden;white-space:nowrap;width:103px}
+._5292 a:hover, ._5292 a:focus, ._5292 a:active{background-color:#4b67a1}
+#pagelet_bookmark_seeall .seeAllSectionHeader{width:100px}
+#pagelet_bookmark_seeall .block{vertical-align:middle}
+#pagelet_bookmark_seeall #bookmarksSeeAllSection{border-top:1px solid #e9e9e9}
+#bookmarksSeeAllSection .favoriteItem .alwaysHidden{display:none}
+.fbBookmarksSeeAllList a.itemLink, .fbBookmarksSeeAllList a.itemLinkLitestand, .fbBookmarksSeeAllList a.itemLinkWithPrivacyIcon, .fbBookmarksSeeAllList a.itemLinkLitestandWithPrivacyIcon{display:inline-block;padding-left:0;-webkit-user-select:none;vertical-align:middle;width:461px}
+.fbBookmarksSeeAllList a.itemLinkWithPrivacyIcon{width:441px}
+.fbBookmarksSeeAllList a.itemLinkLitestand{width:680px}
+.fbBookmarksSeeAllList a.itemLinkLitestandWithPrivacyIcon{width:665px}
+.fbBookmarksSeeAllList a.itemLink:hover{text-decoration:none}
+.fbBookmarksSeeAllList a.itemLink .itemLabel{display:inline-block;line-height:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:403px}
+.fbBookmarksSeeAllList a.itemLink .uiSideNavCount{vertical-align:top}
+.fbBookmarksSeeAllList a.hasTimestamp .itemLabel{max-width:210px}
+.fbBookmarksSeeAllList a.itemLink:hover .itemLabel{text-decoration:underline}
+.fbBookmarksSeeAllList .bookmarkTimestamp{line-height:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:190px}
+.fbBookmarksSeeAllList .itemUnreadProfileImg{height:30px;margin-top:-18px;padding-left:10px;position:relative;top:10px;width:30px}
+.fbBookmarksSeeAllList .privacyIcon{margin-left:3px;vertical-align:middle}
+._5p3y, ._5p3y button, ._5p3y input, ._5p3y label, ._5p3y select, ._5p3y td, ._5p3y textarea, ._5p3y .uiButtonText, ._5p3y .uiButton input, ._5p3y .uiLinkButton input, ._5p3y button.as_link{font-family:Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif;font-size:12px}
+._5p3y .UIActionLinks_bottom .comment_link .uiLinkButtonInput{vertical-align:baseline}
+._5p3y a[role="button"]{font-family:Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif}
+._5p3y .fsm, ._5p3y .uiHeader h3, ._5p3y h4, ._5p3y h5, ._5p3y h6, ._5p3y .UFICommentContent ._5v47{font-size:12px}
+._5p3y .fsl{font-size:14px}
+._5p3y .fbChatSidebar, ._5p3y .fbDock, ._5p3y .fbFeedTicker .fbFeedTickerStory .tickerFeedMessage, ._5p3y .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h5, ._5p3y .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h6, ._5p3y .tickerDialogContent .uiStream .uiStreamMessage, ._5p3y .tickerDialogContent .uiStream .text_exposed_link, ._5p3y .uiTooltipX .tooltipContent{font:12px/16px Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif}
+._5p3y .uiStreamHeaderChronologicalForm a.sortLink, ._5p3y .navHeader, ._5p3y .navHeader a, ._5p3y .uiMoreLinkText{font-size:10px}
+._5p3y .uiSideNav .item{color:#4e5665}
+._5p3y ._519b ._2wr{top:20px}
+._5p3y #fbRequestsFlyout .title{font-size:12px}
+._5p3y .uiStreamLargeHeadline .uiStreamStory .uiStreamHeadline, ._5p3y .uiStreamRedesign .uiStreamMessage .messageBody{font-size:14px}
+._5p3y .uiStreamRedesign .uiStreamStory .actorDescription{padding-bottom:2px}
+._5p3y .uiStream .text_exposed_link{font-size:12px}
+._5p3y .shareRedesignContainer .shareText{min-height:78px;padding-bottom:5px;padding-top:7px}
+._5p3y .shareRedesign .attachmentText{max-height:78px}
+._5p3y .UFICommentPhotoIcon{margin:8px 9px}
+._5p3y .fbPhotosSnowboxFeedbackInput .UFICommentPhotoIcon{margin:9px}
+._5p3y .UFIStickersEnabledInput .UFICommentPhotoIcon, ._5p3y .fbPhotosSnowboxFeedbackInput .UFICommentStickerIcon{margin:8px 4px}
+._5p3y .fbPhotosSnowboxFeedbackInput .UFIStickersEnabledInput .UFICommentPhotoIcon{margin:9px 4px}
+._5p3y .UFICommentStickerIcon{margin:7px 4px}
+._5p3y ._5vr7{font-family:'helvetica neue', helvetica, arial, 'lucida grande', sans-serif;font-size:12px;line-height:16px;padding-left:5px}
+.achievementLockedContainer{position:relative}
+.achievementLockedOverlay{z-index:1;position:absolute;right:21px;top:18px;pointer-events:none}
+.achievementPreview{display:block;margin-right:1px}
+.achievementLockedContainer .achievementPreview{opacity:.3}
+.achievementTooltip{display:block}
+
+#bootloader_mwUQR { height: 42px; }
+.bootloader_mwUQR { display:block !important; }
