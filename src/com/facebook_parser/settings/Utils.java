@@ -5,8 +5,13 @@ import com.thoughtworks.xstream.io.StreamException;
 import com.thoughtworks.xstream.io.xml.DomDriver;
 
 import java.io.*;
+import java.nio.ByteBuffer;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class Utils {
+
     public static AuthData getAuthInfo(String path) {
         XStream xstream = new XStream(new DomDriver());
         try {
@@ -29,6 +34,12 @@ public class Utils {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public static String readFile(String path, Charset encoding)
+            throws IOException {
+        byte[] encoded = Files.readAllBytes(Paths.get(path));
+        return encoding.decode(ByteBuffer.wrap(encoded)).toString();
     }
 
 }

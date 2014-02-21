@@ -5,12 +5,12 @@ import java.util.List;
 
 public class AccountVector {
 
-    private long id;
+    private String id;
     private String first_name;
     private String last_name;
     private List<String> groups;
     private Sex sex;
-    private List<Long> friends;
+    private List<String> friends;
     private BirthDate birthDate;
 
     public AccountVector() {
@@ -31,7 +31,7 @@ public class AccountVector {
         this.sex = sex;
     }
 
-    public List<Long> getFriends() {
+    public List<String> getFriends() {
 
         return friends;
     }
@@ -63,16 +63,16 @@ public class AccountVector {
         this.birthDate = birthDate;
     }
 
-    public long getId() {
+    public String getId() {
 
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
-    public void addFriend(Long friendId) {
+    public void addFriend(String friendId) {
         friends.add(friendId);
     }
 
@@ -90,9 +90,9 @@ public class AccountVector {
         groups.remove(group);
     }
 
-    public boolean hasFriend(Long friendId) {
-        for (long id : friends)
-            if (id == friendId)
+    public boolean hasFriend(String friendId) {
+        for (String id : friends)
+            if (id.equals(friendId))
                 return true;
         return false;
     }
@@ -138,7 +138,7 @@ public class AccountVector {
 
     @Override
     public int hashCode() {
-        int result = (int) (id ^ (id >>> 32));
+        int result = id.hashCode();
         result = 31 * result + (first_name != null ? first_name.hashCode() : 0);
         result = 31 * result + (last_name != null ? last_name.hashCode() : 0);
         result = 31 * result + (groups != null ? groups.hashCode() : 0);

@@ -8,13 +8,13 @@ import java.util.logging.Level;
 
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         init();
-        try{
+//        Utils.writeAuthData(new AuthData("login","password"),"config/settings.xml");
+        try {
             FacebookParser parser = new FacebookParser();
-            parser.parse();
-        }
-        catch (IOException e){
+            parser.testParse();
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
