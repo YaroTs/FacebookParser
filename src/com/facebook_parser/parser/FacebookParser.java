@@ -1,7 +1,9 @@
+package com.facebook_parser.parser;
+
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.*;
-import settings.Settings;
+import com.facebook_parser.settings.Settings;
 
 import java.io.IOException;
 
@@ -18,9 +20,10 @@ public class FacebookParser {
             e.printStackTrace();
             return;
         }
-        final HtmlPage page3 = webClient.getPage("https://www.facebook.com/artem.kirienko/about");
+        final HtmlPage destPage = webClient.getPage("https://www.facebook.com/artem.kirienko/about");
+        String source = destPage.getWebResponse().getContentAsString();
 
-//        System.out.println(page3.asXml());
+        System.out.println(source);
 
         System.out.println("Finish");
         webClient.closeAllWindows();
@@ -43,6 +46,5 @@ public class FacebookParser {
 
         button.dblClick();
     }
-
 
 }

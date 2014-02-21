@@ -1,4 +1,4 @@
-package static_parser;
+package com.facebook_parser.static_parser;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -14,6 +14,8 @@ import java.util.*;
  * Simple jsoup-based static parser
  * Only for debug
  */
+
+@SuppressWarnings("deprecated")
 public class FacebookBasicParser {
 
     private static final String USER_NAME_SURNAME = "a[class=_8_2]";

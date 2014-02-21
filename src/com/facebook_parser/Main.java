@@ -1,3 +1,6 @@
+package com.facebook_parser;
+
+import com.facebook_parser.parser.FacebookParser;
 import org.apache.commons.logging.LogFactory;
 
 import java.io.IOException;

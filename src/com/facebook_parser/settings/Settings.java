@@ -1,8 +1,8 @@
-package settings;
+package com.facebook_parser.settings;
 
 public class Settings {
 
-    private static final String AUTH_DATA_FILE_PATH = "config/settings.xml";
+    private static final String AUTH_DATA_FILE_PATH = "config/com.facebook_parser.settings.xml";
     private AuthData authData;
 
     private static Settings instance;

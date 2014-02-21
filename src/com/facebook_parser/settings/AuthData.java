@@ -1,4 +1,4 @@
-package settings;
+package com.facebook_parser.settings;
 
 public class AuthData {
 

@@ -1,4 +1,4 @@
-package settings;
+package com.facebook_parser.settings;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.StreamException;
